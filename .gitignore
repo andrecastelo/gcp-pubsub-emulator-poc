@@ -1,0 +1,22 @@
+## IDEs
+.idea
+.devcontainer
+.git/
+.vscode
+
+## cache
+.coverage
+.mypy_cache/
+*.pyc
+.tmp/
+.pytest_cache/
+venv/
+
+## tools
+/reports
+.python-version
+
+## files
+.env.local
+.env.dev
+

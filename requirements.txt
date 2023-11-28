@@ -1,0 +1,9 @@
+bandit==1.7.5 ## When updating bandit it is also necessary to update .pre-commit-config.yaml
+black==23.11.0 ## When updating black it is also necessary to update .pre-commit-config.yaml
+factory-boy==3.3.0
+flake8==6.1.0 ## When updating flake8 it is also necessary to update .pre-commit-config.yaml
+freezegun==1.2.2
+google-cloud-pubsub==2.18.4
+ipdb==0.13.13
+ipython==8.18.1
+isort==5.12.0 ## When updating isort it is also necessary to update .pre-commit-config.yaml
