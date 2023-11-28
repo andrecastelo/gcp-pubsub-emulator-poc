@@ -6,7 +6,8 @@ First setup the python environment, then setup the Google Cloud emulators:
 gcloud beta emulators pubsub start --project=example-project
 ```
 
-Then this makes sure the Pubsub library hits our emulators instead of Google's servers.
+Then this makes sure the Pubsub library hits our emulators instead of Google's
+servers.
 
 ```
 $(gcloud beta emulators pubsub env-init)
@@ -20,4 +21,9 @@ pip install -r requirements.txt
 
 ## Creating the subscription and topic
 
-To create them, run `python main.py`. It will output subscription and topic paths.
+To create them, run `python setup.py`. It will create the topic and
+subscription for the inbound emails, and the topic for the metrics.
+
+## Running the events
+
+To run the events, run `python main.py`.
