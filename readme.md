@@ -41,4 +41,4 @@ Metrics topic: Topic path:        projects/subscription-tests/topics/metrics
 
 ## Running the events
 
-To run the events, run `python main.py`.
+To run the events, run `python publisher.py`.
